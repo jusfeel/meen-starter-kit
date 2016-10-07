@@ -19,8 +19,7 @@ ember s
 
 ## under server/ install server
 npm init
-npm i --save express morgan body-parser cookie-parser debug ejs mongojs
-npm i --save-dev gulp gulp-nodemon gulp-watch jshint gulp-jshint gulp-livereload
+npm i --save-dev express morgan body-parser cookie-parser cors debug mongojs gulp gulp-nodemon gulp-watch jshint gulp-jshint gulp-livereload
 vim gulpfile.js
 gulp
 
