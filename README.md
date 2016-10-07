@@ -12,21 +12,21 @@ cd server;gulp
 
 # START CLIENT
 ## on another terminal
-cd client
-ember s
+cd client  
+ember s  
 
 # Build From Scratch
 
 ## under server/ install server
-npm init
-npm i --save-dev express morgan body-parser cookie-parser cors debug mongojs gulp gulp-nodemon gulp-watch jshint gulp-jshint gulp-livereload
-vim gulpfile.js
-gulp
+npm init  
+npm i --save-dev express morgan body-parser cookie-parser cors debug mongojs gulp gulp-nodemon gulp-watch jshint gulp-jshint gulp-livereload  
+vim gulpfile.js  
+gulp  
 
 
 ## project root
-ember new client
-cd client;ember s
+ember new client  
+cd client;ember s  
 
 
 
