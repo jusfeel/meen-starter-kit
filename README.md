@@ -1,18 +1,23 @@
 git clone --recursive ... # to clone all the submodules as well.
 
 # SERVER(install node, mongodb and gulp globally)
-mkdir server;cd server;npm install 
+mkdir server  
+cd server  
+npm install   
 
 # CLIENT(install ember-cli globally)
-cd..;cd client
-npm install;bower install
+cd..  
+cd client  
+npm install  
+bower install  
 
 # START SERVER
-cd server;gulp
+cd server  
+gulp  
 
 # START CLIENT
 ## on another terminal
-cd client  
+cd client    
 ember s  
 
 # Build From Scratch
@@ -25,8 +30,9 @@ gulp
 
 
 ## project root
-ember new client  
-cd client;ember s  
+ember new client    
+cd client  
+ember s  
 
 
 
