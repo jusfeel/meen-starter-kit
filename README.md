@@ -1,17 +1,15 @@
 git clone --recursive ... # to clone all the submodules as well.
 
 # SERVER(install node, mongodb and gulp globally)
-mkdir server  
 cd server  
 npm install   
 
 # CLIENT(install ember-cli globally)
-cd..  
 cd client  
 npm install  
 bower install  
 
-# START SERVER
+# START SERVER (localhost:3000)
 cd server  
 gulp  
 
@@ -20,7 +18,11 @@ gulp
 cd client    
 ember s  
 
+visit http://localhost:4200
+
 # Build From Scratch
+(ember part reference) https://ivanheral.github.io/tutorial/2016/06/10/app-ember-mongo.html  
+(server part reference) http://thejackalofjavascript.com/mean-stack-hands-on-tutorial/  
 
 ## under server/ install server
 npm init  
@@ -28,11 +30,11 @@ npm i --save-dev express morgan body-parser cookie-parser cors debug mongojs gul
 vim gulpfile.js  
 gulp  
 
-
 ## project root
 ember new client    
 cd client  
 ember s  
 
-
+## Initial Config
+pods, bootstrap-4, sass, RESTSerializer
 
