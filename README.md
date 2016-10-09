@@ -36,5 +36,5 @@ cd client
 ember s  
 
 ## Initial Ember Config
-pods, bootstrap-4, sass, RESTSerializer
+pods, bootstrap-4, sass, JSONSerializer
 
